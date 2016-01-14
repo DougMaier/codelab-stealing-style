@@ -1,8 +1,20 @@
+body {
+  /*Make sure there's some pading around the entire page*/
+  padding: 15px;
+}
 h1 {
   font-size: 1.5em;
 }
 .googlish{
-  font-size: 70px;
+  font-size: 72px;
+  /*
+  Original box-shadow borrowed from Google's calculator page
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  */
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 525px;
+  padding: 10px;
 }
 .google_blue{
   color: #1A69F9
